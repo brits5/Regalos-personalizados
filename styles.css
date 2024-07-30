@@ -90,3 +90,84 @@ video {
     margin-right: 0; /* Elimina margen derecho del primer video */
     margin-left: 0; /* Elimina margen izquierdo del segundo video */
 }
+
+.header-section {
+    background: url('https://woncast.com/wp-content/uploads/2023/01/regalo-para-mi-novia-manualidades.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    /* Ajusta el padding para que ocupe más espacio */
+    position: relative;
+}
+
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    /* Color negro con 50% de opacidad */
+    z-index: 1;
+}
+
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.header-section h1,
+.header-section h2,
+.header-section p {
+    margin: 0;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    /* Ajusta el tamaño del texto */
+    font-weight: bold;
+}
+
+.header-section h2 {
+    font-size: 1.75rem;
+    /* Ajusta el tamaño del texto */
+    color: #d3d3d3;
+    /* Color más suave para el subtítulo */
+}
+
+.header-section p {
+    font-size: 1.25rem;
+    /* Ajusta el tamaño del texto */
+    color: #add8e6;
+    /* Color de texto */
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-weight: bold;
+}
+
+.footer .btn-group a {
+    margin: 0 10px;
+}
+
+.footer p {
+    margin: 20px 0 0;
+    font-size: 0.9rem;
+}
+
+.footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.footer .social-icons a:hover {
+    color: #adb5bd;
+}
