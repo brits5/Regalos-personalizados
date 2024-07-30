@@ -1,0 +1,80 @@
+.carousel-item img {
+    width: 100%;
+    height: auto; /* Ajusta la altura según sea necesario */
+    object-fit: cover; /* Mantiene la proporción de la imagen y recorta si es necesario */
+}
+.btn-group {
+    margin: 20px 0; /* Espacio superior e inferior para los botones */
+}
+
+.btn-group a {
+    margin: 0 10px; /* Espacio horizontal entre botones */
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.table td {
+    color: #555;
+}
+
+.carousel-control-prev,
+        .carousel-control-next {
+            width: 5%;
+            color: #000000; /* Color del ícono */
+        }
+        
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: none; /* Fondo del ícono */
+            border-radius: 50%; /* Forma circular */
+        }
+        
+        /* Posicionar controles fuera del carrusel */
+        .carousel-control-prev {
+            left: -5%; /* Mueve el control hacia afuera */
+        }
+        
+        .carousel-control-next {
+            right: -5%; /* Mueve el control hacia afuera */
+        }
+
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 30%;
+    height: 0;
+    padding-bottom: 56.25%; /* Relación de aspecto 16:9 */
+    background-color: transparent; /* Asegura que el fondo no sea negro */
+}
+
+.embed-responsive-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+}
+
+#videoContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#videoPromocional{
+    width: 400px;
+    height: 700px;
+}
