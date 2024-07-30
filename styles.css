@@ -78,3 +78,15 @@
     width: 400px;
     height: 700px;
 }
+
+/* Elimina el margen entre columnas */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Ajusta el espaciado de los videos si es necesario */
+video {
+    margin-right: 0; /* Elimina margen derecho del primer video */
+    margin-left: 0; /* Elimina margen izquierdo del segundo video */
+}
